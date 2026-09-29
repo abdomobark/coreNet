@@ -1,0 +1,18 @@
+# Core ORM + async driver
+SQLAlchemy>=2.0.30,<3.0
+asyncpg>=0.29.0
+
+# Required for SQLAlchemy async ORM bridging
+greenlet>=3.0.3
+
+# API stack
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.8.0
+pydantic-settings>=2.2.1
+python-dotenv>=1.0.1
+
+# Auth / security
+bcrypt>=4.1.0
+python-jose[cryptography]>=3.3.0
+email-validator>=2.1.0.post1
